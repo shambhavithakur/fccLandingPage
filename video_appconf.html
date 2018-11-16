@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        @media screen and (max-width: 768px) {
+            .video {
+                margin-top: 1rem;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 240px;
+            }
+        }
+
+        .video {
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .video a,
+        .video img {
+            display: inline-block;
+            line-height: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .video:hover .icon {
+            transform: scale(.92);
+            opacity: .85;
+        }
+
+        @media screen and (max-width: 768px) {
+            .video .icon {
+                width: 50px;
+                height: 50px;
+                margin-left: -25px;
+                margin-top: -25px;
+            }
+        }
+        .video .icon {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: -40px;
+    margin-top: -40px;
+    transform: scale(1);
+    transition: all .2s ease-in-out;
+    opacity: 1;
+}
+.video a, .video img {
+    display: inline-block;
+    line-height: 0;
+    position: relative;
+    z-index: 1;
+}
+
+img {
+    max-width: 100%;
+}
+.video a, .video img {
+    display: inline-block;
+    line-height: 0;
+    position: relative;
+    z-index: 1;
+}
+.video .image {
+    border-radius: 1rem;
+    box-shadow: 0 20px 30px -20px rgba(0,0,0,.8);
+}
+
+    </style>
+</head>
+
+<body>
+    <!-- video in modal -->
+    <div class="video">
+        <a href="https://www.youtube.com/embed/jGYm2K6X9Bg" rel="video-recap" title="ADDC 2017 recap" target="_blank">
+            <img class="icon" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB3aWR0aD0iODBweCIgaGVpZ2h0PSI4MHB4IiB2aWV3Qm94PSIwIDAgODAgODAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ4LjEgKDQ3MjUwKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5JY29uPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IkxhbmRpbmciIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC05NjAuMDAwMDAwLCAtMjg3LjAwMDAwMCkiPgogICAgICAgIDxnIGlkPSJJbnRybyIgZmlsbD0iI0ZGRkZGRiI+CiAgICAgICAgICAgIDxnIGlkPSJDb250ZW50IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNTAuMDAwMDAwLCAyMjAuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0iVmlkZW8iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDU2MC4wMDAwMDAsIDAuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgPGcgaWQ9IlBsYXllciI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xOTAsMTQ3IEMxNjcuOTA4NjEsMTQ3IDE1MCwxMjkuMDkxMzkgMTUwLDEwNyBDMTUwLDg0LjkwODYxIDE2Ny45MDg2MSw2NyAxOTAsNjcgQzIxMi4wOTEzOSw2NyAyMzAsODQuOTA4NjEgMjMwLDEwNyBDMjMwLDEyOS4wOTEzOSAyMTIuMDkxMzksMTQ3IDE5MCwxNDcgWiBNMjAyLDEwNyBMMTg0LDk1IEwxODQsMTE5IEwyMDIsMTA3IFoiIGlkPSJJY29uIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K">
+            <img class="image _ffn_img" src="/2018/img/video-thumbnail.5b2c6f2.jpg">
+        </a>
+        <h3 class="ui inverted header">Check out
+            <strong>the 2017 edition video</strong>
+        </h3>
+    </div>
+</body>
+
+</html>
