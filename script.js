@@ -19,7 +19,7 @@ function navListOpen() {
 
 function navListClose() {
   document.querySelector("#nav-bar").style.height = "0%";
-  selectToggler.classList.toggle("toggleStyle");
+  //   selectToggler.classList.toggle("toggleStyle");
   return false;
 }
 
@@ -28,7 +28,7 @@ var section1Position = document.querySelector(".section1").scrollTop;
 window.onscroll = function() {
   var currentPosition = window.pageYOffset;
 
-  if (currentPosition <= 150) {
+  if (currentPosition <= 80) {
     getNavbar.classList.remove("navBarStyle");
     getFirstBar.style.top = "0";
   } else {
