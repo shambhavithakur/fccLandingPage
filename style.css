@@ -25,8 +25,8 @@ html {
     from(#f0f4f3),
     color-stop(50%, #dde6e3)
   );
-  background: linear-gradient(to right, #f0f4f3 0%, #dde6e3 50%);
   background: linear-gradient(to right, #cbf1e7 0%, #c8f4e9 100%);
+  background: linear-gradient(to right, #cce9f3 0%, #f7f8f8 100%);
 }
 
 body {
@@ -162,6 +162,7 @@ header {
   padding: 1rem 2rem;
   transition: all 0s ease-in;
   background: linear-gradient(to right, #cbf1e7 0%, #c8f4e9 100%);
+  background: linear-gradient(to right, #cce9f3 0%, #f7f8f8 100%);
 }
 .navBarStyle {
   background: #16ca98;
@@ -287,7 +288,7 @@ header {
 
 button {
   outline: none;
-  background-color: #16ca98;
+  background-color: #38deb0;
   border: 2px solid #04251d;
   border-radius: 0.25rem;
   text-align: center;
@@ -299,6 +300,7 @@ button {
 }
 .navbar.navBarStyle button {
   border-color: #f0f4f3;
+  background: #16ca98;
 }
 
 button span {
@@ -383,6 +385,7 @@ img.section1LargeImg {
 /* Section 2 */
 .section2IntroContainer {
   background: linear-gradient(to right, #cce9f3 0%, #f7f8f8 100%);
+  background: linear-gradient(to right, #cbf1e7 0%, #c8f4e9 100%);
 }
 .section2Intro > p:nth-of-type(1) {
   margin-bottom: 1em;
@@ -420,6 +423,7 @@ video {
 /* Section 3 */
 .section3Container {
   background: linear-gradient(to right, #cce9f3 0%, #f7f8f8 100%);
+  background: linear-gradient(to right, #cbf1e7 0%, #c8f4e9 100%);
 }
 .section3HowWorks {
   display: flex;
@@ -488,7 +492,8 @@ form {
   height: 4.5em;
   padding: 0.5em;
   font-size: 1rem;
-  background: rgba(56, 222, 176, 0.3);
+  background: #aaf0dc;
+  /* background: #aeecdd; */
   border: none;
 }
 .outer-wrapper + .outer-wrapper {
